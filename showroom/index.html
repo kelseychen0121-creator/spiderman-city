@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>Modern Buildings — Showroom</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:#0b0e13}
+  canvas{display:block}
+  #loading{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;color:#9fb4cc;font:15px system-ui;background:#0b0e13;z-index:20;transition:opacity .4s}
+  select,button{background:#2a3546;color:#dfe8f2;border:0;border-radius:6px;padding:4px 8px;margin:2px 4px 2px 0;font:12px system-ui;cursor:pointer}
+</style>
+<script type="importmap">
+{"imports":{"three":"../shared/vendor/three.module.js","three/addons/":"../shared/vendor/jsm/"}}
+</script>
+</head>
+<body>
+<div id="loading">加载模型…</div>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
